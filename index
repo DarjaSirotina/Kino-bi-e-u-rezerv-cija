@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kino Rezervācija</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="main-title">Zvaigžņu Kino</h1>
+        <p class="description">Rezervējiet biļetes uz jaunākajām filmām. Viena biļete maksā 7 EUR. Pērc 5 vai vairāk un saņem atlaidi!</p>
+        
+        <div class="input-section">
+            <label for="ticket-count">Biļešu skaits:</label>
+            <input type="number" id="ticket-count" min="1" placeholder="Ievadiet skaitu">
+            <button id="calculate-btn">Aprēķināt cenu</button>
+        </div>
+
+        <div id="result-display" class="result-box">
+            </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
